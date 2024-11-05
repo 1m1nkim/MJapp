@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="some_id">
+        <item name="android:textSize">45px</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <style name="main_auto">
+        <item name="android:textSize">32px</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <style name="find_text">
+        <item name="android:textSize">32px</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <style name="made_by_">
+        <item name="android:textSize">32px</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <style name="login_fail_s">
+        <item name="android:textSize">24px</item>
+        <item name="android:textColor">#FF0000</item>
+    </style>
+    <style name="main_title_styles">
+        <item name="android:textSize">70px</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <style name="top_info">
+        <item name="android:textSize">30px</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <style name="top_logout_btn">
+        <item name="android:textSize">30px</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <style name="top_passwd_change_btn">
+        <item name="android:textSize">30px</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <style name="ann_text">
+        <item name="android:textSize">25px</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <style name="donFind_num_st">
+        <item name="android:textSize">20px</item>
+        <item name="android:textColor">#FF0000</item>
+    </style>
+    <style name="date_sche_text">
+        <item name="android:textSize">30px</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <style name="sche_title_s">
+        <item name="android:textSize">55px</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="sche_style">
+        <item name="android:textSize">30px</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <style name="text_sche_s">
+        <item name="android:textSize">30px</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <style name="web_text">
+        <item name="android:textSize">50px</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <style name="main_loading">
+        <item name="android:textSize">110px</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <style name="notice_pin">
+        <item name="android:textSize">30px</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="notice_info_title">
+        <item name="android:textSize">30px</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <style name="notice_info">
+        <item name="android:textSize">29.4px</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <style name="book_name_s">
+        <item name="android:textSize">75px</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <style name="book_price_s">
+        <item name="android:textSize">60px</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <style name="sell_text">
+        <item name="android:textSize">35px</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <style name="web_text1">
+        <item name="android:textSize">38px</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <style name="text_mjc">
+        <item name="android:textSize">70px</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <style name="text_name">
+        <item name="android:textSize">55px</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <style name="text_depart">
+        <item name="android:textSize">40px</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <style name="menu">
+        <item name="android:textSize">33px</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <style name="text_45">
+        <item name="android:textSize">45px</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <style name="text_DATE">
+        <item name="android:textSize">30px</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+    <style name="text_lunch">
+        <item name="android:textSize">25px</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <style name="text_bookname">
+        <item name="android:textSize">33px</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <style name="book_name_info">
+        <item name="android:textSize">50px</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <style name="book_name_info_2">
+        <item name="android:textSize">50px</item>
+        <item name="android:textColor">#001A4E</item>
+    </style>
+    <style name="info_author">
+        <item name="android:textSize">25px</item>
+        <item name="android:textColor">#616161</item>
+    </style>
+    <style name="sell_p_ex_s">
+        <item name="android:textSize">30px</item>
+        <item name="android:textColor">#616161</item>
+    </style>
+
+</resources>

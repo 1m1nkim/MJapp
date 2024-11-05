@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">android_Project</string>
+    <string name="text_hak">학번</string>
+    <string name="login_btn_text">로그인</string>
+    <string name="text_pass">비밀번호</string>
+    <string name="auto_text_main">자동로그인</string>
+    <string name="find_text">학번 찾기</string>
+    <string name="find_pass">비밀번호 찾기</string>
+    <string name="made_by_">MADE BY. 어쩔티비</string>
+    <string name="loginT_fail">학번 또는 비밀번호가 일치하지 않습니다.</string>
+    <string name="main_title_string">명지전문대학</string>
+    <string name="top_info">양재민(2019081089)</string>
+    <string name="top_logout_btn">로그아웃</string>
+    <string name="top_passwd_change_btn">비밀번호 변경</string>
+    <string name="find_id_good_s">2019081070</string>
+    <string name="find_id_bad_s">이름 또는 생년월일을</string>
+    <string name="find_id_bad_s1">정확하게 입력해주세요.</string>
+    <string name="find_pass_bad1">이름 또는 학번을</string>
+    <string name="change_pass_g">변경이 완료되었습니다.</string>
+    <string name="notsame_pass">올바른 비밀번호를 입력하세요.</string>zz
+</resources>
