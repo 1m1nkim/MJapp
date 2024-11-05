@@ -1,0 +1,376 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/site_id"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clipToOutline="true">
+
+    <android.widget.Button
+        android:id="@+id/back_btn_sin"
+        android:layout_width="80px"
+        android:layout_height="80px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="37px"
+        android:layout_marginTop="59px"
+        android:background="@drawable/back_logo" />
+
+    <TextView
+        android:id="@+id/site_title"
+        android:layout_width="204px"
+        android:layout_height="66px"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="66px"
+        android:gravity="center_vertical"
+        android:text="웹사이트"
+        android:textAppearance="@style/sche_title_s" />
+
+    <View
+        android:id="@+id/dott_linee"
+        android:layout_width="1080px"
+        android:layout_height="1px"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="191px"
+        android:background="@drawable/dot_line"
+        android:elevation="4px"
+        />
+
+    <!--버튼 1 (MJC)-->
+
+    <android.widget.Button
+        android:id="@+id/web_site_btn1"
+        android:layout_width="1080px"
+        android:layout_height="196px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="191px"
+        android:background="@drawable/web_btn"
+        />
+    <TextView
+        android:layout_width="754px"
+        android:layout_height="90px"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="89px"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="244px"
+        android:gravity="center_vertical"
+        android:text="MJC 홈페이지"
+        android:textAppearance="@style/web_text"
+        android:elevation="4dp"
+        />
+
+    <View
+        android:id="@+id/btn1"
+        android:layout_width="52px"
+        android:layout_height="80px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="353dp"
+        android:layout_marginTop="92dp"
+        android:background="@drawable/img_btn_web" />
+
+    <View
+        android:id="@+id/line_69"
+        android:layout_width="1080px"
+        android:layout_height="1px"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="387px"
+        android:background="@drawable/dot_line"
+        />
+
+    <!--버튼 2 (I_CAMPUS)-->
+
+    <android.widget.Button
+        android:id="@+id/web_site_btn2"
+        android:layout_width="1080px"
+        android:layout_height="196px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="387px"
+        android:background="@drawable/web_btn"
+        />
+    <TextView
+        android:layout_width="754px"
+        android:layout_height="90px"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="89px"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="440px"
+        android:gravity="center_vertical"
+        android:text="I-CAMPUS"
+        android:textAppearance="@style/web_text"
+        android:elevation="4dp"
+        />
+    <View
+        android:id="@+id/btn2"
+        android:layout_width="52px"
+        android:layout_height="80px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="353dp"
+        android:layout_marginTop="162dp"
+        android:background="@drawable/img_btn_web" />
+    <View
+        android:id="@+id/line_70"
+        android:layout_width="1080px"
+        android:layout_height="1px"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="583px"
+        android:background="@drawable/dot_line"
+        />
+
+    <!--버튼 3 (원격강좌/E-class)-->
+
+    <android.widget.Button
+        android:id="@+id/web_site_btn3"
+        android:layout_width="1080px"
+        android:layout_height="196px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="583px"
+        android:background="@drawable/web_btn" />
+
+    <TextView
+        android:layout_width="754px"
+        android:layout_height="90px"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="89px"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="636px"
+        android:gravity="center_vertical"
+        android:text="원격강좌/E-class"
+        android:textAppearance="@style/web_text"
+        android:elevation="4dp"
+        />
+    <View
+        android:id="@+id/line_71"
+        android:layout_width="1080px"
+        android:layout_height="1px"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="779px"
+        android:background="@drawable/dot_line"
+        />
+    <View
+        android:id="@+id/btn3"
+        android:layout_width="52px"
+        android:layout_height="80px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="353dp"
+        android:layout_marginTop="234dp"
+        android:background="@drawable/img_btn_web" />
+
+    <!--버튼 4 (도서관)-->
+
+    <android.widget.Button
+        android:id="@+id/web_site_btn4"
+        android:layout_width="1080px"
+        android:layout_height="196px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="779px"
+        android:background="@drawable/web_btn" />
+
+    <TextView
+        android:layout_width="754px"
+        android:layout_height="90px"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="89px"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="832px"
+        android:gravity="center_vertical"
+        android:text="도서관"
+        android:textAppearance="@style/web_text"
+        android:elevation="4dp"
+        />
+    <View
+        android:id="@+id/line_72"
+        android:layout_width="1080px"
+        android:layout_height="1px"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="975px"
+        android:background="@drawable/dot_line"
+        />
+    <View
+        android:id="@+id/btn4"
+        android:layout_width="52px"
+        android:layout_height="80px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="353dp"
+        android:layout_marginTop="306dp"
+        android:background="@drawable/img_btn_web" />
+
+    <!--버튼 5 (역량기반 학사시스템)-->
+
+    <android.widget.Button
+        android:id="@+id/web_site_btn5"
+        android:layout_width="1080px"
+        android:layout_height="196px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="975px"
+        android:background="@drawable/web_btn" />
+
+    <TextView
+        android:layout_width="754px"
+        android:layout_height="90px"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="89px"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="1028px"
+        android:gravity="center_vertical"
+        android:text="역량기반 학사시스템"
+        android:textAppearance="@style/web_text"
+        android:elevation="4dp"
+        />
+    <View
+        android:id="@+id/line_73"
+        android:layout_width="1080px"
+        android:layout_height="1px"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="1171px"
+        android:background="@drawable/dot_line"
+        />
+    <View
+        android:id="@+id/btn5"
+        android:layout_width="52px"
+        android:layout_height="80px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="353dp"
+        android:layout_marginTop="377dp"
+        android:background="@drawable/img_btn_web" />
+
+    <!--버튼 6 (웹 메일)-->
+
+    <android.widget.Button
+        android:id="@+id/web_site_btn6"
+        android:layout_width="1080px"
+        android:layout_height="196px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="1171px"
+        android:background="@drawable/web_btn" />
+
+    <TextView
+        android:layout_width="754px"
+        android:layout_height="90px"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="89px"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="1224px"
+        android:gravity="center_vertical"
+        android:text="웹메일"
+        android:textAppearance="@style/web_text"
+        android:elevation="4dp"
+        />
+    <View
+        android:id="@+id/line_74"
+        android:layout_width="1080px"
+        android:layout_height="1px"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="1367px"
+        android:background="@drawable/dot_line"
+        />
+    <View
+        android:id="@+id/btn6"
+        android:layout_width="52px"
+        android:layout_height="80px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="353dp"
+        android:layout_marginTop="448dp"
+        android:background="@drawable/img_btn_web" />
+
+    <!--버튼 7 (교수학습 지원)-->
+
+    <android.widget.Button
+        android:id="@+id/web_site_btn7"
+        android:layout_width="1080px"
+        android:layout_height="196px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="1367px"
+        android:background="@drawable/web_btn" />
+
+    <TextView
+        android:layout_width="754px"
+        android:layout_height="90px"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="89px"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="1420px"
+        android:gravity="center_vertical"
+        android:text="교수학습 지원"
+        android:textAppearance="@style/web_text"
+        android:elevation="4dp"
+        />
+    <View
+        android:id="@+id/line_76"
+        android:layout_width="1080px"
+        android:layout_height="1px"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="1563px"
+        android:background="@drawable/dot_line"
+        />
+    <View
+        android:id="@+id/btn7"
+        android:layout_width="52px"
+        android:layout_height="80px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="353dp"
+        android:layout_marginTop="519dp"
+        android:background="@drawable/img_btn_web" />
+
+    <!--버튼 8 (학생역량 이력관리 시스템)-->
+
+    <android.widget.Button
+        android:id="@+id/web_site_btn8"
+        android:layout_width="1080px"
+        android:layout_height="196px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="1563px"
+        android:background="@drawable/web_btn" />
+
+    <TextView
+        android:layout_width="754px"
+        android:layout_height="90px"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="89px"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="1616px"
+        android:gravity="center_vertical"
+        android:text="학생역량 이력관리 시스템"
+        android:textAppearance="@style/web_text" />
+    <View
+        android:id="@+id/line_75"
+        android:layout_width="1080px"
+        android:layout_height="1px"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="1759px"
+        android:background="@drawable/dot_line"
+        />
+    <View
+        android:id="@+id/btn8"
+        android:layout_width="52px"
+        android:layout_height="80px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="353dp"
+        android:layout_marginTop="590dp"
+        android:background="@drawable/img_btn_web" />
+</RelativeLayout>
+

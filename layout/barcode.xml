@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".BarcodeActivity">
+
+    <RelativeLayout
+        android:id="@+id/somee_id"
+        android:layout_width="0dp"
+        android:layout_height="191px"
+        android:background="#FFFFFF"
+        android:clipToOutline="true"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <android.widget.Button
+            android:id="@+id/back_btn_chat"
+            android:layout_width="80px"
+            android:layout_height="80px"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="23dp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/back_logo"
+            android:contentDescription="Go back button"/>
+
+        <TextView
+            android:id="@+id/chat_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="24dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="모바일 학생증"
+            android:textAppearance="@style/sche_title_s" />
+
+        <View
+            android:id="@+id/dot_line"
+            android:layout_width="1080px"
+            android:layout_height="1px"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="200px"
+            android:background="@drawable/dot_line"
+            android:elevation="4px" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_height="0dp"
+        android:layout_width="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/somee_id"
+        app:layout_constraintHeight_percent="0.9">
+
+        <ImageView
+            android:id="@+id/bar_code"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:layout_marginTop="10dp"
+            />
+
+        <TextView
+            android:id="@+id/bar_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_below="@+id/bar_code"
+            android:text="2020081000"
+            android:textSize="30px"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            />
+
+        <TextView
+            android:id="@+id/bar_hak"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="100dp"
+            android:layout_below="@+id/bar_id"
+            android:text="학번: 2023081000"
+            android:textSize="35px" />
+
+        <TextView
+            android:id="@+id/bar_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_below="@+id/bar_hak"
+            android:text="이름: 홍길동"
+            android:textSize="35px"
+            />
+
+        <TextView
+            android:id="@+id/bar_dep"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_below="@+id/bar_name"
+            android:text="학과: 컴퓨터공학과"
+            android:textSize="35px"
+            />
+
+        <TextView
+            android:id="@+id/bar_job"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_below="@+id/bar_dep"
+            android:text="신분: 학생"
+            android:textSize="35px"
+            />
+
+        <TextView
+            android:id="@+id/bar_sit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_below="@+id/bar_job"
+            android:text="상태: 재학/재직"
+            android:textSize="35px"
+            />
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

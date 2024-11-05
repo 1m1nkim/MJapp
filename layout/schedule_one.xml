@@ -1,0 +1,452 @@
+  <RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/some_id"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clipToOutline="true">
+
+    <FrameLayout
+        android:layout_width="1080px"
+        android:layout_height="100px"
+        android:layout_marginTop="200px">
+        <RelativeLayout
+            android:layout_width="1080px"
+            android:layout_height="100px"
+            android:visibility="visible"
+            android:id="@+id/sche_one">
+            <android.widget.Button
+                android:id="@+id/left_btn_sche"
+                android:layout_width="44px"
+                android:layout_height="44px"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="73px"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="15px"
+                android:background="@drawable/left_btn"
+                />
+            <TextView
+                android:id="@+id/date_text_han"
+                android:layout_width="206px"
+                android:layout_height="43px"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="129px"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="15px"
+                android:text="2023학년 1학기"
+                android:textAppearance="@style/date_sche_text"
+                android:gravity="center_horizontal|center_vertical"
+                />
+
+            <android.widget.Button
+                android:id="@+id/right_btn_sche"
+                android:layout_width="44px"
+                android:layout_height="44px"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="347px"
+                android:layout_marginTop="15px"
+                android:background="@drawable/right_btn" />
+
+            <TextView
+                android:id="@+id/march_text"
+                android:layout_width="76.11px"
+                android:layout_height="42.78px"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="500px"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="15px"
+                android:text="3월"
+                android:textAppearance="@style/sche_style"
+                android:gravity="center_horizontal|center_vertical"
+                />
+            <TextView
+                android:id="@+id/april_text"
+                android:layout_width="76.11px"
+                android:layout_height="42.78px"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="590px"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="15px"
+                android:text="4월"
+                android:textAppearance="@style/sche_style"
+                android:gravity="center_horizontal|center_vertical"
+                />
+            <TextView
+                android:id="@+id/may_text"
+                android:layout_width="76.11px"
+                android:layout_height="42.78px"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="680px"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="15px"
+                android:text="5월"
+                android:textAppearance="@style/sche_style"
+                android:gravity="center_horizontal|center_vertical"
+                />
+            <TextView
+                android:id="@+id/june_text"
+                android:layout_width="76.11px"
+                android:layout_height="42.78px"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="770px"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="15px"
+                android:text="6월"
+                android:textAppearance="@style/sche_style"
+                android:gravity="center_horizontal|center_vertical"
+                />
+            <TextView
+                android:id="@+id/july_text"
+                android:layout_width="76.11px"
+                android:layout_height="42.78px"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="860px"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="15px"
+                android:text="7월"
+                android:textAppearance="@style/sche_style"
+                android:gravity="center_horizontal|center_vertical"
+                />
+            <TextView
+                android:id="@+id/august_text"
+                android:layout_width="76.11px"
+                android:layout_height="42.78px"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="950px"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="15px"
+                android:text="8월"
+                android:textAppearance="@style/sche_style"
+                android:gravity="center_horizontal|center_vertical"
+                />
+
+            <View
+                android:id="@+id/line1"
+                android:layout_width="1px"
+                android:layout_height="18px"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="583px"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/line_lay_sche" />
+            <View
+                android:id="@+id/line2"
+                android:layout_width="1px"
+                android:layout_height="18px"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="673px"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/line_lay_sche" />
+            <View
+                android:id="@+id/line3"
+                android:layout_width="1px"
+                android:layout_height="18px"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="763px"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/line_lay_sche" />
+            <View
+                android:id="@+id/line4"
+                android:layout_width="1px"
+                android:layout_height="18px"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="853px"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/line_lay_sche" />
+            <View
+                android:id="@+id/line5"
+                android:layout_width="1px"
+                android:layout_height="18px"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="943px"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/line_lay_sche" />
+
+            <android.widget.Button
+                android:id="@+id/march_btn"
+                android:layout_width="85px"
+                android:layout_height="70px"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="180dp"
+                android:layout_marginTop="3px"
+                android:background="#00ff0000" />
+
+            <android.widget.Button
+                android:id="@+id/april_btn"
+                android:layout_width="85px"
+                android:layout_height="70px"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="213dp"
+                android:layout_marginTop="3px"
+                android:background="#00ff0000"/>
+            <android.widget.Button
+                android:id="@+id/may_btn"
+                android:layout_width="85px"
+                android:layout_height="70px"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="246dp"
+                android:layout_marginTop="3px"
+                android:background="#00ff0000"/>
+            <android.widget.Button
+                android:id="@+id/june_btn"
+                android:layout_width="85px"
+                android:layout_height="70px"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="278dp"
+                android:layout_marginTop="3px"
+                android:background="#00ff0000"/>
+            <android.widget.Button
+                android:id="@+id/july_btn"
+                android:layout_width="85px"
+                android:layout_height="70px"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="311dp"
+                android:layout_marginTop="3px"
+                android:background="#00ff0000"/>
+            <android.widget.Button
+                android:id="@+id/august_btn"
+                android:layout_width="85px"
+                android:layout_height="70px"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="343dp"
+                android:layout_marginTop="3px"
+                android:background="#00ff0000"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="1080px"
+            android:layout_height="100px"
+            android:visibility="invisible"
+            android:id="@+id/sche_two">
+
+            <android.widget.Button
+                android:id="@+id/left_btn_sche_two"
+                android:layout_width="44px"
+                android:layout_height="44px"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="73px"
+                android:layout_marginTop="15px"
+                android:background="@drawable/img_btn_scheleft" />
+
+            <TextView
+                android:id="@+id/date_text_han_two"
+                android:layout_width="206px"
+                android:layout_height="43px"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="129px"
+                android:layout_marginTop="15px"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="2023학년 2학기"
+                android:textAppearance="@style/date_sche_text" />
+
+            <android.widget.Button
+                android:id="@+id/right_btn_sche_two"
+                android:layout_width="44px"
+                android:layout_height="44px"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="347px"
+                android:layout_marginTop="15px"
+                android:background="@drawable/img_btn_shceright" />
+
+
+            <TextView
+                android:id="@+id/sep_text"
+                android:layout_width="76.11px"
+                android:layout_height="42.78px"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="680px"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="15px"
+                android:text="9월"
+                android:textAppearance="@style/sche_style"
+                android:gravity="center_horizontal|center_vertical"
+                />
+            <TextView
+                android:id="@+id/octo_text"
+                android:layout_width="76.11px"
+                android:layout_height="42.78px"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="770px"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="15px"
+                android:text="10월"
+                android:textAppearance="@style/sche_style"
+                android:gravity="center_horizontal|center_vertical"
+                />
+            <TextView
+                android:id="@+id/novem_text"
+                android:layout_width="76.11px"
+                android:layout_height="42.78px"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="860px"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="15px"
+                android:text="11월"
+                android:textAppearance="@style/sche_style"
+                android:gravity="center_horizontal|center_vertical"
+                />
+            <TextView
+                android:id="@+id/decem_text"
+                android:layout_width="76.11px"
+                android:layout_height="42.78px"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="950px"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="15px"
+                android:text="12월"
+                android:textAppearance="@style/sche_style"
+                android:gravity="center_horizontal|center_vertical"
+                />
+
+
+            <View
+                android:id="@+id/line3_t"
+                android:layout_width="1px"
+                android:layout_height="18px"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="763px"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/line_lay_sche" />
+            <View
+                android:id="@+id/line4_t"
+                android:layout_width="1px"
+                android:layout_height="18px"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="853px"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/line_lay_sche" />
+            <View
+                android:id="@+id/line5_t"
+                android:layout_width="1px"
+                android:layout_height="18px"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="943px"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/line_lay_sche" />
+
+
+            <android.widget.Button
+                android:id="@+id/sep_btn"
+                android:layout_width="85px"
+                android:layout_height="70px"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="246dp"
+                android:layout_marginTop="3px"
+                android:background="#00ff0000"/>
+            <android.widget.Button
+                android:id="@+id/octo_btn"
+                android:layout_width="85px"
+                android:layout_height="70px"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="278dp"
+                android:layout_marginTop="3px"
+                android:background="#00ff0000"/>
+
+            <android.widget.Button
+                android:id="@+id/novem_btn"
+                android:layout_width="85px"
+                android:layout_height="70px"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="311dp"
+                android:layout_marginTop="3px"
+                android:background="#00ff0000" />
+            <android.widget.Button
+                android:id="@+id/decem_btn"
+                android:layout_width="85px"
+                android:layout_height="70px"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="343dp"
+                android:layout_marginTop="3px"
+                android:background="#00ff0000"/>
+        </RelativeLayout>
+    </FrameLayout>
+
+      <TextView
+        android:id="@+id/sche_title"
+        android:layout_width="204px"
+        android:layout_height="66px"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="66px"
+        android:text="학사일정"
+        android:textAppearance="@style/sche_title_s"
+        android:gravity="center_vertical"
+        />
+
+    <View
+        android:id="@+id/dott_linee"
+        android:layout_width="1080px"
+        android:layout_height="1px"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="173px"
+        android:background="@drawable/dot_line"
+        android:elevation="4px" />
+
+    <android.widget.Button
+        android:id="@+id/back_btn_han"
+        android:layout_width="80px"
+        android:layout_height="80px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="37px"
+        android:layout_marginTop="59px"
+        android:background="@drawable/back_logo" />
+
+
+      <TextView
+          android:id="@+id/month_text"
+          android:layout_width="150px"
+          android:layout_height="54px"
+          android:layout_alignParentLeft="true"
+          android:layout_alignParentTop="true"
+          android:layout_marginLeft="117px"
+          android:layout_marginTop="321px"
+          android:gravity="center_horizontal|center_vertical"
+          android:text="3월"
+          android:textAppearance="@style/some_id" />
+
+    <View
+        android:id="@+id/midline"
+        android:layout_width="833px"
+        android:layout_height="3px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="118px"
+        android:layout_marginTop="375px"
+        android:background="@drawable/midlinee" />
+
+      <TextView
+          android:id="@+id/text_sche"
+          android:layout_width="308dp"
+          android:layout_height="361dp"
+          android:layout_alignParentLeft="true"
+          android:layout_alignParentTop="true"
+          android:layout_marginLeft="117px"
+          android:layout_marginTop="400px"
+          android:gravity="top"
+          android:lineSpacingExtra="9px"
+          android:text="2023.02.28~2023.03.02 신입생 수강신청 \n2023.03.01~2023.03.01 2023학년도 1학기 개시일 \n2023.03.02~2023.03.02 2023학년도 1학기 개강일  \n2023.03.03~2023.03.03 1학기 수강신청 변경기간(1)  \n2023.03.06~2023.03.08 1학기 수강신청 변경기간(2) \n2023.03.06~2023.03.06 개강예배  \n2023.03.09~2023.03.09 개교기념일\n"
+          android:textAppearance="@style/text_sche_s"
+          android:translationY="-4.57px" />
+</RelativeLayout>

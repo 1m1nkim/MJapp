@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <!--구분선-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:padding="20dp">
+
+
+        <View
+            android:id="@+id/rectangle_7"
+            android:layout_width="100px"
+            android:layout_height="150px"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10px"
+
+            android:background="@drawable/mine_chat_circle" />
+
+        <ImageView
+            android:id="@+id/image_book"
+            android:layout_width="80px"
+            android:layout_height="80px"
+            android:layout_marginLeft="20px"
+            android:layout_marginTop="11px"
+            android:src="@drawable/mine_chat_i" />
+
+        <TextView
+            android:id="@+id/chat_last"
+            android:layout_width="1000px"
+            android:layout_height="100px"
+            android:layout_marginLeft="150px"
+            android:layout_marginTop="20px"
+            android:text="컴퓨터 보안"
+            android:textAppearance="@style/sell_text" />
+
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginHorizontal="10dp"
+        android:background="#aaa"/>
+
+</LinearLayout>

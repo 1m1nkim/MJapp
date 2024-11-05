@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <!--구분선-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:padding="20dp">
+
+        <ImageView
+            android:id="@+id/image_book"
+            android:layout_width="500px"
+            android:layout_height="500px"
+            android:background="@drawable/web_btn"
+            android:src="@drawable/web_btn3_e" />
+
+        <TextView
+            android:id="@+id/book_name"
+            android:layout_width="500px"
+            android:layout_height="100px"
+            android:layout_marginLeft="515px"
+            android:layout_marginTop="10px"
+            android:text="컴퓨터 보안"
+            android:textAppearance="@style/book_name_s" />
+
+        <TextView
+            android:id="@+id/book_author"
+            android:layout_width="500px"
+            android:layout_height="100px"
+            android:layout_marginLeft="520px"
+            android:layout_marginTop="135px"
+            android:text="이유림 지음"
+            android:textAppearance="@style/some_id" />
+
+        <TextView
+            android:id="@+id/book_publisher"
+            android:layout_width="500px"
+            android:layout_height="100px"
+            android:layout_marginLeft="520px"
+            android:layout_marginTop="220px"
+            android:text="출판사"
+            android:textAppearance="@style/some_id" />
+
+        <TextView
+            android:id="@+id/book_price"
+            android:layout_width="500px"
+            android:layout_height="100px"
+            android:layout_marginLeft="520px"
+            android:layout_marginTop="300px"
+            android:text="10000원"
+            android:textAppearance="@style/book_price_s" />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="1080px"
+        android:layout_height="1px"
+        android:layout_marginHorizontal="10dp"
+        android:background="@drawable/dot_line"/>
+
+</LinearLayout>

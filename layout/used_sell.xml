@@ -1,0 +1,901 @@
+<!-- Auto layout, variables, and unit scale are not yet supported -->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/some_id"
+    android:layout_width="1080px"
+    android:layout_height="2220px"
+    android:clipToOutline="true"
+    android:background="#FFFFFF"
+    android:elevation="4px">
+    <!-- Auto layout, variables, and unit scale are not yet supported -->
+    <android.widget.Button
+        android:id="@+id/back_btn_used"
+        android:layout_width="80px"
+        android:layout_height="80px"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="63px"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="59px"
+        android:background="@drawable/back_logo"
+        />
+    <TextView
+        android:id="@+id/used_Title"
+        android:layout_width="204px"
+        android:layout_height="66px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="438px"
+        android:layout_marginTop="66px"
+        android:gravity="center_vertical"
+        android:text="판매하기"
+        android:textStyle="bold"
+        android:textAppearance="@style/sche_title_s" />
+
+    <View
+        android:id="@+id/rectangle_7"
+        android:layout_width="1082px"
+        android:layout_height="924px"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="395dp"
+        android:background="#F1F1F1"
+        />
+
+    <View
+        android:id="@+id/line_68"
+        android:layout_width="1080px"
+        android:layout_height="1px"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="191px"
+        android:background="@drawable/dot_line" />
+
+    <View
+        android:id="@+id/rectangle_5"
+        android:layout_width="1082px"
+        android:layout_height="65px"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="180px"
+        android:background="#F1F1F1" />
+
+    <TextView
+        android:id="@+id/text_book_info"
+        android:layout_width="780px"
+        android:layout_height="66px"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="315px"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="자세한 책 정보를 적어주세요"
+        android:textAppearance="@style/some_id" />
+
+    <View
+        android:id="@+id/sell_box1"
+        android:layout_width="950px"
+        android:layout_height="83px"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="516px"
+        android:background="@drawable/sell_box_d" />
+    <View
+        android:id="@+id/sell_box2"
+        android:layout_width="950px"
+        android:layout_height="83px"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="625px"
+        android:background="@drawable/sell_box_d" />
+    <View
+        android:id="@+id/sell_box3"
+        android:layout_width="950px"
+        android:layout_height="83px"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="734px"
+        android:background="@drawable/sell_box_d" />
+    <View
+        android:id="@+id/sell_box4"
+        android:layout_width="950px"
+        android:layout_height="83px"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="843px"
+        android:background="@drawable/sell_box_d" />
+    <View
+        android:id="@+id/sell_box5"
+        android:layout_width="950px"
+        android:layout_height="83px"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="407px"
+        android:background="@drawable/sell_box_d" />
+
+    <android.widget.Button
+        android:id="@+id/sell_next_btn"
+        android:layout_width="117px"
+        android:layout_height="83px"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="952px"
+        android:background="@drawable/sell_next_b"
+        android:text="다음"
+        android:textColor="#ffffff"/>
+
+    <EditText
+        android:id="@+id/sell_name_ed"
+        android:layout_width="900px"
+        android:layout_height="83px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="91px"
+        android:layout_marginTop="407px"
+        android:gravity="center_vertical"
+        android:hint="책 이름"
+        android:background="@null"
+        android:textAppearance="@style/sell_text" />
+    <EditText
+        android:id="@+id/sell_author_ed"
+        android:layout_width="900px"
+        android:layout_height="83px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="91px"
+        android:layout_marginTop="516px"
+        android:gravity="center_vertical"
+        android:hint="저자"
+        android:background="@null"
+        android:textAppearance="@style/sell_text" />
+    <EditText
+        android:id="@+id/sell_publisher_ed"
+        android:layout_width="900px"
+        android:layout_height="83px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="91px"
+        android:layout_marginTop="625px"
+        android:gravity="center_vertical"
+        android:hint="출판사"
+        android:background="@null"
+        android:textAppearance="@style/sell_text" />
+    <EditText
+        android:id="@+id/sell_publishd_ed"
+        android:layout_width="900px"
+        android:layout_height="83px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="91px"
+        android:layout_marginTop="734px"
+        android:gravity="center_vertical"
+        android:hint="출판일 (ex. 20230101)"
+        android:background="@null"
+        android:textAppearance="@style/sell_text" />
+    <EditText
+        android:id="@+id/sell_price_ed"
+        android:layout_width="900px"
+        android:layout_height="83px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="91px"
+        android:layout_marginTop="843px"
+        android:gravity="center_vertical"
+        android:hint="가격 (ex. 17000)"
+        android:background="@null"
+        android:textAppearance="@style/sell_text" />
+    <!--asdasd00000000000000000000000000000000000000000000000000000000000000000000000000000 -->
+
+    <TextView
+        android:id="@+id/text_book_bozon"
+        android:layout_width="780px"
+        android:layout_height="66px"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="315px"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="책의 보존 상태가 어떤가요?"
+        android:textAppearance="@style/some_id"
+        android:visibility="invisible"/>
+
+    <View
+        android:id="@+id/bozon_box1"
+        android:layout_width="950px"
+        android:layout_height="83px"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="407px"
+        android:background="@drawable/sell_box_d"
+        android:visibility="invisible"/>
+    <View
+        android:id="@+id/bozon_box2"
+        android:layout_width="950px"
+        android:layout_height="83px"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="516px"
+        android:background="@drawable/sell_box_d"
+        android:visibility="invisible"/>
+    <View
+        android:id="@+id/bozon_box3"
+        android:layout_width="950px"
+        android:layout_height="83px"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="625px"
+        android:background="@drawable/sell_box_d"
+        android:visibility="invisible"/>
+
+
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="invisible">
+
+        <RadioButton
+            android:id="@+id/radio1"
+            android:layout_width="39px"
+            android:layout_height="39px"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="89px"
+            android:layout_marginTop="429px"
+            android:background="@drawable/check_box_sell"
+            android:button="@null"
+            android:textColor="@drawable/check_box_sell_color" />
+
+        <RadioButton
+            android:id="@+id/radio2"
+            android:layout_width="39px"
+            android:layout_height="39px"
+            android:layout_marginLeft="89px"
+            android:layout_marginTop="67px"
+            android:background="@drawable/check_box_sell"
+            android:button="@null"
+            android:textColor="@drawable/check_box_sell_color" />
+
+        <RadioButton
+            android:id="@+id/radio3"
+            android:layout_width="39px"
+            android:layout_height="39px"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="89px"
+            android:layout_marginTop="75px"
+            android:background="@drawable/check_box_sell"
+            android:button="@null"
+            android:textColor="@drawable/check_box_sell_color" />
+
+    </RadioGroup>
+
+    <android.widget.Button
+        android:id="@+id/r_button_1"
+        android:layout_width="950px"
+        android:layout_height="60px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="80px"
+        android:layout_marginTop="420px"
+        android:background="#00ff0000"
+        android:visibility="invisible"/>
+    <android.widget.Button
+        android:id="@+id/r_button_2"
+        android:layout_width="950px"
+        android:layout_height="60px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="80px"
+        android:layout_marginTop="530px"
+        android:background="#00ff0000"
+        android:visibility="invisible"/>
+    <android.widget.Button
+        android:id="@+id/r_button_3"
+        android:layout_width="950px"
+        android:layout_height="60px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="80px"
+        android:layout_marginTop="638px"
+        android:background="#00ff0000"
+        android:visibility="invisible"
+        />
+
+    <TextView
+        android:id="@+id/bozon_pen"
+        android:layout_width="900px"
+        android:layout_height="83px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="150px"
+        android:layout_marginTop="407px"
+        android:gravity="center_vertical"
+        android:text="상"
+        android:textAppearance="@style/sell_text"
+        android:textColor="#B7B7B7"
+        android:visibility="invisible" />
+    <TextView
+        android:id="@+id/bozon_boll"
+        android:layout_width="900px"
+        android:layout_height="83px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="150px"
+        android:layout_marginTop="516px"
+        android:gravity="center_vertical"
+        android:text="중"
+        android:textColor="#B7B7B7"
+        android:textAppearance="@style/sell_text"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:id="@+id/bozon_clean"
+        android:layout_width="900px"
+        android:layout_height="83px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="150px"
+        android:layout_marginTop="625px"
+        android:gravity="center_vertical"
+        android:text="하"
+        android:textAppearance="@style/sell_text"
+        android:textColor="#B7B7B7"
+        android:visibility="invisible" />
+
+    <android.widget.Button
+        android:id="@+id/bozon_next_btn"
+        android:layout_width="117px"
+        android:layout_height="83px"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="734px"
+        android:background="@drawable/sell_next_b"
+        android:text="다음"
+        android:textColor="#ffffff"
+        android:visibility="invisible" />
+
+    <View
+        android:id="@+id/rectangle_8"
+        android:layout_width="1082px"
+        android:layout_height="1142px"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="869px"
+        android:background="#F1F1F1"
+        android:visibility="invisible" />
+
+    <!--00000000000000000000000000000000000000000000000000000000000000-->
+    <TextView
+        android:id="@+id/text_camera"
+        android:layout_width="780px"
+        android:layout_height="66px"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="315px"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="실제 사진을 찍어주세요."
+        android:textAppearance="@style/some_id"
+        android:visibility="invisible"/>
+    <android.widget.Button
+        android:id="@+id/upload_btn1"
+        android:layout_width="498px"
+        android:layout_height="498px"
+        android:layout_marginTop="407px"
+        android:layout_marginLeft="20px"
+        android:background="@null"
+        android:visibility="invisible"
+        android:onClick="upload_camera1"
+        />
+    <android.widget.Button
+        android:id="@+id/upload_btn2"
+        android:layout_width="498px"
+        android:layout_height="498px"
+        android:layout_marginLeft="560px"
+        android:layout_marginTop="407px"
+        android:background="@null"
+        android:visibility="invisible"
+        android:onClick="upload_camera2"
+        />
+
+    <ImageView
+        android:id="@+id/camera_upload1"
+        android:layout_width="498px"
+        android:layout_height="498px"
+        android:layout_marginLeft="20px"
+        android:layout_marginTop="407px"
+        android:background="@drawable/camera_upload_box"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/camera_upload2"
+        android:layout_width="498px"
+        android:layout_height="498px"
+        android:layout_marginLeft="560px"
+        android:layout_marginTop="407px"
+        android:background="@drawable/camera_upload_box"
+        android:visibility="invisible"/>
+
+
+    <ImageView
+        android:id="@+id/camera_logo1"
+        android:layout_width="109.21px"
+        android:layout_height="109.21px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="219dp"
+        android:background="@drawable/camera"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/camera_logo2"
+        android:layout_width="109.21px"
+        android:layout_height="109.21px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="275dp"
+        android:layout_marginTop="219dp"
+        android:background="@drawable/camera"
+        android:visibility="invisible"/>
+
+    <android.widget.Button
+        android:id="@+id/camera_next_btn"
+        android:layout_width="117px"
+        android:layout_height="83px"
+        android:layout_marginLeft="560px"
+        android:layout_marginTop="931px"
+        android:background="@drawable/sell_next_b"
+        android:text="다음"
+        android:textColor="#ffffff"
+        android:visibility="invisible" />
+
+    <android.widget.Button
+        android:id="@+id/camera_btn"
+        android:layout_width="191px"
+        android:layout_height="83px"
+        android:layout_marginLeft="330px"
+        android:layout_marginTop="931px"
+        android:background="@drawable/camera_next_b"
+        android:text="건너뛰기"
+        android:textColor="#999999"
+        android:visibility="invisible" />
+
+    <!--00000000000000000000000000000000000000000000000000000000000000-->
+    <TextView
+        android:id="@+id/text_sudan"
+        android:layout_width="780px"
+        android:layout_height="66px"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="315px"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="원하시는 거래 수단을 선택하세요."
+        android:textAppearance="@style/some_id"
+        android:visibility="invisible"/>
+    <View
+        android:id="@+id/off_box"
+        android:layout_width="950px"
+        android:layout_height="83px"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="407px"
+        android:background="@drawable/sell_box_d"
+        android:visibility="invisible"/>
+    <View
+        android:id="@+id/on_box"
+        android:layout_width="950px"
+        android:layout_height="83px"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="516px"
+        android:background="@drawable/sell_box_d"
+        android:visibility="invisible"/>
+    <View
+        android:id="@+id/both_box"
+        android:layout_width="950px"
+        android:layout_height="83px"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="625px"
+        android:background="@drawable/sell_box_d"
+        android:visibility="invisible"/>
+    <RadioGroup
+        android:id="@+id/radio_group_sudan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="invisible">
+
+        <RadioButton
+            android:id="@+id/radio1_sudan"
+            android:layout_width="39px"
+            android:layout_height="39px"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="89px"
+            android:layout_marginTop="429px"
+            android:background="@drawable/check_box_sell"
+            android:button="@null"
+            android:textColor="@drawable/check_box_sell_color" />
+
+        <RadioButton
+            android:id="@+id/radio2_sudan"
+            android:layout_width="39px"
+            android:layout_height="39px"
+            android:layout_marginLeft="89px"
+            android:layout_marginTop="67px"
+            android:background="@drawable/check_box_sell"
+            android:button="@null"
+            android:textColor="@drawable/check_box_sell_color" />
+
+        <RadioButton
+            android:id="@+id/radio3_sudan"
+            android:layout_width="39px"
+            android:layout_height="39px"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="89px"
+            android:layout_marginTop="75px"
+            android:background="@drawable/check_box_sell"
+            android:button="@null"
+            android:textColor="@drawable/check_box_sell_color" />
+
+    </RadioGroup>
+    <android.widget.Button
+        android:id="@+id/r_button_1_sudan"
+        android:layout_width="950px"
+        android:layout_height="60px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="80px"
+        android:layout_marginTop="420px"
+        android:background="#00ff0000"
+        android:visibility="invisible"/>
+    <android.widget.Button
+        android:id="@+id/r_button_2_sudan"
+        android:layout_width="950px"
+        android:layout_height="60px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="80px"
+        android:layout_marginTop="530px"
+        android:background="#00ff0000"
+        android:visibility="invisible"/>
+    <android.widget.Button
+        android:id="@+id/r_button_3_sudan"
+        android:layout_width="950px"
+        android:layout_height="60px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="80px"
+        android:layout_marginTop="638px"
+        android:background="#00ff0000"
+        android:visibility="invisible"
+        />
+
+    <android.widget.Button
+        android:id="@+id/sudan_next_btn"
+        android:layout_width="117px"
+        android:layout_height="83px"
+        android:layout_marginLeft="485px"
+        android:layout_marginTop="734px"
+        android:background="@drawable/sell_next_b"
+        android:text="다음"
+        android:textColor="#ffffff"
+        android:visibility="invisible" />
+
+
+    <TextView
+        android:id="@+id/off"
+        android:layout_width="900px"
+        android:layout_height="83px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="150px"
+        android:layout_marginTop="407px"
+        android:gravity="center_vertical"
+        android:text="직거래"
+        android:textAppearance="@style/sell_text"
+        android:textColor="#B7B7B7"
+        android:visibility="invisible" />
+    <TextView
+        android:id="@+id/on"
+        android:layout_width="900px"
+        android:layout_height="83px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="150px"
+        android:layout_marginTop="516px"
+        android:gravity="center_vertical"
+        android:text="택배"
+        android:textColor="#B7B7B7"
+        android:textAppearance="@style/sell_text"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:id="@+id/both"
+        android:layout_width="900px"
+        android:layout_height="83px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="150px"
+        android:layout_marginTop="625px"
+        android:gravity="center_vertical"
+        android:text="둘 다 가능"
+        android:textAppearance="@style/sell_text"
+        android:textColor="#B7B7B7"
+        android:visibility="invisible" />
+    <!--00000000000000000000000000000000000000000000000000000000000000-->
+
+    <TextView
+        android:id="@+id/text_area"
+        android:layout_width="780px"
+        android:layout_height="66px"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="315px"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="원하시는 직거래 장소를 적어주세요."
+        android:textAppearance="@style/some_id"
+        android:visibility="invisible"/>
+
+    <EditText
+        android:id="@+id/ed_area"
+        android:layout_width="950px"
+        android:layout_height="83px"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="407px"
+        android:background="@drawable/sell_box_d"
+        android:hint=" (20자 이내)"
+        android:textAppearance="@style/sell_text"
+        android:maxLength="20"
+        android:gravity="top"
+        android:visibility="invisible"/>
+
+    <View
+        android:id="@+id/rectangle_9"
+        android:layout_width="1082px"
+        android:layout_height="1360px"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="651px"
+        android:background="#F1F1F1"
+        android:visibility="invisible" />
+    <android.widget.Button
+        android:id="@+id/area_next_btn"
+        android:layout_width="117px"
+        android:layout_height="83px"
+        android:layout_marginLeft="560px"
+        android:layout_marginTop="516px"
+        android:background="@drawable/sell_next_b"
+        android:text="다음"
+        android:textColor="#ffffff"
+        android:visibility="invisible" />
+
+    <android.widget.Button
+        android:id="@+id/area_btn"
+        android:layout_width="191px"
+        android:layout_height="83px"
+        android:layout_marginLeft="330px"
+        android:layout_marginTop="516px"
+        android:background="@drawable/camera_next_b"
+        android:text="건너뛰기"
+        android:textColor="#999999"
+        android:visibility="invisible" />
+    <!--00000000000000000000000000000000000000000000000000000000000000-->
+
+    <TextView
+        android:id="@+id/text_explain"
+        android:layout_width="780px"
+        android:layout_height="66px"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="315px"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="추가 설명을 자유롭게 적어주세요."
+        android:textAppearance="@style/some_id"
+        android:visibility="invisible" />
+
+    <EditText
+        android:id="@+id/ed_plain"
+        android:layout_width="950px"
+        android:layout_height="290px"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="407px"
+        android:background="@drawable/sell_box_d"
+        android:gravity="top"
+        android:padding="20px"
+        android:hint=" (500자 이내)"
+        android:maxLength="500"
+        android:textAppearance="@style/sell_text"
+        android:visibility="invisible" />
+    <android.widget.Button
+        android:id="@+id/exp_next_btn"
+        android:layout_width="117px"
+        android:layout_height="83px"
+        android:layout_marginLeft="560px"
+        android:layout_marginTop="723px"
+        android:background="@drawable/sell_next_b"
+        android:text="다음"
+        android:textColor="#ffffff"
+        android:visibility="invisible" />
+
+    <android.widget.Button
+        android:id="@+id/exp_btn"
+        android:layout_width="191px"
+        android:layout_height="83px"
+        android:layout_marginLeft="330px"
+        android:layout_marginTop="723px"
+        android:background="@drawable/camera_next_b"
+        android:text="건너뛰기"
+        android:textColor="#999999"
+        android:visibility="invisible" />
+
+    <!--00000000000000000000000000000000000000000000000000000000000000-->
+    <View
+        android:id="@+id/rectangle_10"
+        android:layout_width="1082px"
+        android:layout_height="1217px"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="794px"
+        android:background="#F1F1F1"
+        android:visibility="invisible" />
+    <TextView
+        android:id="@+id/text_last"
+        android:layout_width="780px"
+        android:layout_height="66px"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="315px"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="마지막으로 확인해주세요."
+        android:textAppearance="@style/some_id"
+        android:visibility="invisible"/>
+    <TextView
+        android:id="@+id/pdf_"
+        android:layout_width="947px"
+        android:layout_height="60px"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="68px"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="400px"
+        android:text="· 등록 후에는 수정 및 삭제가 불가능합니다."
+        android:textAppearance="@style/sell_text"
+        android:gravity="top"
+        android:visibility="invisible"
+        />
+    <TextView
+        android:id="@+id/pdf_1"
+        android:layout_width="947px"
+        android:layout_height="60px"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="68px"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="450px"
+        android:text="· 제본, PDF 등 저작권 침해 자료는 거래할 수 없습니다."
+        android:textAppearance="@style/sell_text"
+        android:gravity="top"
+        android:visibility="invisible"
+        />
+
+    <TextView
+        android:id="@+id/pdf_2"
+        android:layout_width="947px"
+        android:layout_height="60px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="68px"
+        android:layout_marginTop="500px"
+        android:gravity="top"
+        android:text="· 커뮤니티 이용규칙을 위반한 게시물은 삭제됩니다."
+        android:textAppearance="@style/sell_text"
+        android:visibility="invisible"
+        />
+    <TextView
+        android:id="@+id/pdf_3"
+        android:layout_width="947px"
+        android:layout_height="60px"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="68px"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="550px"
+        android:text="· 판매 이후 [판매 완료]를 눌러주시기 바랍니다."
+        android:textAppearance="@style/sell_text"
+        android:gravity="top"
+        android:visibility="invisible"
+        />
+
+    <android.widget.Button
+        android:id="@+id/last_btn"
+        android:layout_width="302px"
+        android:layout_height="83px"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="659px"
+        android:background="@drawable/sell_next_b_b"
+        android:text="동의 및 등록하기"
+        android:textColor="#ffffff"
+        android:visibility="invisible"
+        />
+    <!--00000000000000000000000000000000000000000000000000000000000000-->
+
+    <TextView
+        android:id="@+id/mine_btn_text"
+        android:layout_width="360px"
+        android:layout_height="53px"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="2133px"
+        android:layout_marginLeft="830px"
+        android:text="나의 책"
+        android:textAppearance="@style/some_id"
+        />
+    <TextView
+        android:id="@+id/sell_btn_text"
+        android:layout_width="360px"
+        android:layout_height="53px"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="2133px"
+        android:layout_marginLeft="470px"
+        android:text="판매하기"
+        android:textAppearance="@style/some_id"
+        />
+
+    <android.widget.Button
+        android:id="@+id/home_btn_used"
+        android:layout_width="360px"
+        android:layout_height="300px"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="730dp"
+        android:background="#00ff0000" />
+
+    <android.widget.Button
+        android:id="@+id/sell_btn_used"
+        android:layout_width="360px"
+        android:layout_height="300px"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="360px"
+        android:layout_marginTop="730dp"
+        android:background="#00ff0000" />
+
+    <android.widget.Button
+        android:id="@+id/mine_btn_used"
+        android:layout_width="360px"
+        android:layout_height="300px"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="720px"
+        android:layout_marginTop="730dp"
+        android:background="#00ff0000" />
+
+    <ImageView
+        android:id="@+id/used_home_image"
+        android:layout_width="64px"
+        android:layout_height="64px"
+        android:layout_marginLeft="149px"
+        android:layout_marginTop="2069px"
+        android:background="@drawable/home" />
+    <ImageView
+        android:id="@+id/used_sell_image"
+        android:layout_width="64px"
+        android:layout_height="64px"
+        android:layout_marginLeft="520px"
+        android:layout_marginTop="2069px"
+        android:background="@drawable/sell" />
+    <ImageView
+        android:id="@+id/used_mine_image"
+        android:layout_width="64px"
+        android:layout_height="64px"
+        android:layout_marginLeft="870px"
+        android:layout_marginTop="2069px"
+        android:background="@drawable/used_me" />
+
+    <TextView
+        android:id="@+id/home_btn_text"
+        android:layout_width="360px"
+        android:layout_height="53px"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="160px"
+        android:layout_marginTop="2133px"
+        android:text="홈"
+        android:textAppearance="@style/some_id" />
+</RelativeLayout>
+

@@ -1,0 +1,150 @@
+<!-- Auto layout, variables, and unit scale are not yet supported -->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/some_id"
+    android:layout_width="1080px"
+    android:layout_height="2220px"
+    android:clipToOutline="true"
+    android:background="#FFFFFF"
+    android:elevation="4px">
+    <!-- Auto layout, variables, and unit scale are not yet supported -->
+    <android.widget.Button
+        android:id="@+id/back_btn_used_home"
+        android:layout_width="80px"
+        android:layout_height="80px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="63px"
+        android:layout_marginTop="59px"
+        android:background="@drawable/back_logo" />
+
+    <TextView
+        android:id="@+id/used_Title"
+        android:layout_width="204px"
+        android:layout_height="66px"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="66px"
+        android:gravity="center_vertical"
+        android:text="중고서적"
+        android:textAppearance="@style/sche_title_s"
+        android:textStyle="bold" />
+
+    <View
+        android:id="@+id/line_68"
+        android:layout_width="1080px"
+        android:layout_height="1px"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="65dp"
+        android:background="@drawable/dot_line" />
+
+    <View
+        android:id="@+id/line_69"
+        android:layout_width="1080px"
+        android:layout_height="1px"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="331px"
+        android:background="@drawable/dot_line" />
+
+    <EditText
+        android:id="@+id/search_used_1"
+        android:layout_width="1006px"
+        android:layout_height="93px"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="40px"
+        android:layout_marginTop="76dp"
+
+        android:background="@drawable/search_used" />
+
+    <TextView
+        android:id="@+id/home_btn_text"
+        android:layout_width="360px"
+        android:layout_height="53px"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="2133px"
+        android:layout_marginLeft="160px"
+        android:text="홈"
+        android:textAppearance="@style/some_id"
+        />
+    <TextView
+        android:id="@+id/sell_btn_text"
+        android:layout_width="360px"
+        android:layout_height="53px"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="2133px"
+        android:layout_marginLeft="470px"
+        android:text="판매하기"
+        android:textAppearance="@style/some_id"
+        />
+    <TextView
+        android:id="@+id/mine_btn_text"
+        android:layout_width="360px"
+        android:layout_height="53px"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="2133px"
+        android:layout_marginLeft="830px"
+        android:text="나의 책"
+        android:textAppearance="@style/some_id"
+        />
+
+    <android.widget.Button
+        android:id="@+id/home_btn_used"
+        android:layout_width="360px"
+        android:layout_height="300px"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="730dp"
+        android:background="#00ff0000" />
+
+    <android.widget.Button
+        android:id="@+id/sell_btn_used"
+        android:layout_width="360px"
+        android:layout_height="300px"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="360px"
+        android:layout_marginTop="730dp"
+        android:background="#00ff0000" />
+
+    <android.widget.Button
+        android:id="@+id/mine_btn_used"
+        android:layout_width="360px"
+        android:layout_height="300px"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="730dp"
+        android:layout_marginLeft="720px"
+        android:background="#00ff0000"/>
+
+    <ImageView
+        android:id="@+id/used_home_image"
+        android:layout_width="64px"
+        android:layout_height="64px"
+        android:layout_marginLeft="149px"
+        android:layout_marginTop="2069px"
+        android:background="@drawable/home" />
+    <ImageView
+        android:id="@+id/used_sell_image"
+        android:layout_width="64px"
+        android:layout_height="64px"
+        android:layout_marginLeft="520px"
+        android:layout_marginTop="2069px"
+        android:background="@drawable/sell" />
+    <ImageView
+        android:id="@+id/used_mine_image"
+        android:layout_width="64px"
+        android:layout_height="64px"
+        android:layout_marginLeft="870px"
+        android:layout_marginTop="2069px"
+        android:background="@drawable/used_me" />
+
+    <RelativeLayout
+        android:layout_width="1080px"
+        android:layout_height="1670px"
+        android:layout_marginTop="340px">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30px" />
+    </RelativeLayout>
+</RelativeLayout>
+

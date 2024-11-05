@@ -1,0 +1,245 @@
+<!-- Auto layout, variables, and unit scale are not yet supported -->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/some_id"
+    android:layout_width="1080px"
+    android:layout_height="2220px"
+    android:clipToOutline="true"
+    android:background="#FFFFFF"
+    android:elevation="4px">
+    <!-- Auto layout, variables, and unit scale are not yet supported -->
+    <android.widget.Button
+        android:id="@+id/back_btn_used_home"
+        android:layout_width="52px"
+        android:layout_height="80px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="63px"
+        android:layout_marginTop="59px"
+        android:background="@drawable/back_logo" />
+
+    <TextView
+        android:id="@+id/used_Title"
+        android:layout_width="204px"
+        android:layout_height="66px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="438px"
+        android:layout_marginTop="66px"
+        android:gravity="center_vertical"
+        android:text="나의 책"
+        android:textAppearance="@style/some_id" />
+
+    <View
+        android:id="@+id/line_68"
+        android:layout_width="1080px"
+        android:layout_height="1px"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="65dp"
+        android:background="@drawable/dot_line" />
+
+    <View
+        android:id="@+id/line_69"
+        android:layout_width="1080px"
+        android:layout_height="1px"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="331px"
+        android:background="@drawable/dot_line" />
+
+    <android.widget.Button
+        android:id="@+id/selling_book"
+        android:layout_width="540px"
+        android:layout_height="137.06px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="191px"
+        android:background="#00ff0000"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="판매중인 책"
+        android:textAppearance="@style/some_id" />
+
+    <android.widget.Button
+        android:id="@+id/message_book"
+        android:layout_width="540px"
+        android:layout_height="137.06px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="540px"
+        android:layout_marginTop="191px"
+        android:background="#00ff0000"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="쪽지함"
+        android:textAppearance="@style/some_id" />
+
+    <View
+        android:id="@+id/rectangle_6"
+        android:layout_width="540px"
+        android:layout_height="10px"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="540px"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="326px"
+        android:background="#8B8B8B"
+        />
+    <TextView
+        android:id="@+id/home_btn_text"
+        android:layout_width="360px"
+        android:layout_height="53px"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="2133px"
+        android:layout_marginLeft="160px"
+        android:text="홈"
+        android:textAppearance="@style/some_id"
+        />
+    <TextView
+        android:id="@+id/sell_btn_text"
+        android:layout_width="360px"
+        android:layout_height="53px"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="2133px"
+        android:layout_marginLeft="470px"
+        android:text="판매하기"
+        android:textAppearance="@style/some_id"
+        />
+    <TextView
+        android:id="@+id/mine_btn_text"
+        android:layout_width="360px"
+        android:layout_height="53px"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="2133px"
+        android:layout_marginLeft="830px"
+        android:text="나의 책"
+        android:textAppearance="@style/some_id"
+        />
+
+    <android.widget.Button
+        android:id="@+id/home_btn_used"
+        android:layout_width="137dp"
+        android:layout_height="74dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="733dp"
+        android:background="#00ff0000" />
+
+    <android.widget.Button
+        android:id="@+id/sell_btn_used"
+        android:layout_width="125dp"
+        android:layout_height="76dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="360px"
+        android:layout_marginTop="732dp"
+        android:layout_marginBottom="-1dp"
+        android:background="#00ff0000" />
+
+    <android.widget.Button
+        android:id="@+id/mine_btn_used"
+        android:layout_width="131dp"
+        android:layout_height="76dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="720px"
+        android:layout_marginTop="731dp"
+        android:background="#00ff0000" />
+
+    <ImageView
+        android:id="@+id/used_home_image"
+        android:layout_width="64px"
+        android:layout_height="64px"
+        android:layout_marginLeft="149px"
+        android:layout_marginTop="2069px"
+        android:background="@drawable/home" />
+    <ImageView
+        android:id="@+id/used_sell_image"
+        android:layout_width="64px"
+        android:layout_height="64px"
+        android:layout_marginLeft="520px"
+        android:layout_marginTop="2069px"
+        android:background="@drawable/sell"
+        />
+
+    <ImageView
+        android:id="@+id/used_mine_image"
+        android:layout_width="64px"
+        android:layout_height="64px"
+        android:layout_marginLeft="870px"
+        android:layout_marginTop="2069px"
+        android:background="@drawable/used_me" />
+
+    <View
+        android:id="@+id/rectangle_5"
+        android:layout_width="1080px"
+        android:layout_height="162px"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="209px"
+        android:background="#F1F1F1" />
+
+    <View
+        android:id="@+id/rectangle_7"
+        android:layout_width="1033px"
+        android:layout_height="100px"
+        android:layout_marginLeft="27px"
+        android:layout_marginTop="1880px"
+        android:background="@drawable/send_et_d" />
+
+    <EditText
+        android:id="@+id/send_et"
+        android:layout_width="870px"
+        android:layout_height="100px"
+        android:layout_marginLeft="60px"
+        android:layout_marginTop="1880px"
+        android:background="@null"
+        android:hint="채팅을 입력하세요" />
+
+
+    <ImageView
+        android:id="@+id/send_btn_img"
+        android:layout_width="55px"
+        android:layout_height="55px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="956px"
+        android:layout_marginTop="1903px"
+        android:background="@drawable/img_send" />
+
+    <android.widget.Button
+        android:id="@+id/send_btn"
+        android:layout_width="56dp"
+        android:layout_height="61dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="337dp"
+        android:layout_marginTop="672dp"
+        android:layout_marginEnd="0dp"
+        android:background="#00ff0000" />
+
+    <RelativeLayout
+        android:id="@+id/chatList_your"
+        android:layout_width="540px"
+        android:layout_height="1500px"
+        android:layout_marginTop="340px">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView_you"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30px" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/chatList_me"
+        android:layout_width="540px"
+        android:layout_height="1500px"
+        android:layout_marginLeft="540px"
+        android:layout_marginTop="340px">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView_me"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30px" />
+    </RelativeLayout>
+
+</RelativeLayout>
+

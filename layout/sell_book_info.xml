@@ -1,0 +1,436 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/some_id"
+    android:layout_width="1080px"
+    android:layout_height="2220px"
+    android:clipToOutline="true"
+    android:background="#FFFFFF"
+    android:elevation="4px">
+    <!-- Auto layout, variables, and unit scale are not yet supported -->
+    <android.widget.Button
+        android:id="@+id/back_btn_used"
+        android:layout_width="80px"
+        android:layout_height="80px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="63px"
+        android:layout_marginTop="59px"
+        android:background="@drawable/back_logo" />
+
+    <TextView
+        android:id="@+id/used_Title"
+        android:layout_width="300px"
+        android:layout_height="66px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="438px"
+        android:layout_marginTop="66px"
+        android:gravity="center_vertical"
+        android:text="중고 서적"
+        android:textAppearance="@style/sche_title_s"
+        android:textStyle="bold" />
+
+    <View
+        android:id="@+id/line_68"
+        android:layout_width="1080px"
+        android:layout_height="1px"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="65dp"
+        android:background="@drawable/dot_line" />
+
+    <View
+        android:id="@+id/rectangle_6"
+        android:layout_width="1082px"
+        android:layout_height="65px"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="922px"
+        android:background="#F1F1F1" />
+
+    <TextView
+        android:id="@+id/book_info_name"
+        android:layout_width="928px"
+        android:layout_height="66px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="29px"
+        android:layout_marginTop="308px"
+        android:gravity="center_vertical"
+        android:text="컴퓨터 보안"
+        android:textAppearance="@style/book_name_info"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/book_info_price"
+        android:layout_width="700px"
+        android:layout_height="66px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="29px"
+        android:layout_marginTop="572px"
+        android:gravity="center_vertical"
+        android:text="5,000원"
+        android:textAppearance="@style/book_name_info_2"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/book_info_author"
+        android:layout_width="154px"
+        android:layout_height="66px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="29px"
+        android:layout_marginTop="374px"
+        android:gravity="center_vertical"
+        android:text="저자"
+        android:textAppearance="@style/info_author" />
+
+    <TextView
+        android:id="@+id/book_info_publisher"
+        android:layout_width="154px"
+        android:layout_height="66px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="29px"
+        android:layout_marginTop="440px"
+        android:gravity="center_vertical"
+        android:text="출판사"
+        android:textAppearance="@style/info_author" />
+    <TextView
+        android:id="@+id/book_info_publishd"
+        android:layout_width="700px"
+        android:layout_height="66px"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="29px"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="506px"
+        android:text="출판일"
+        android:textAppearance="@style/info_author"
+        android:gravity="center_vertical"
+        />
+
+    <TextView
+        android:id="@+id/book_info_publishd_mine"
+        android:layout_width="700px"
+        android:layout_height="66px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="183px"
+        android:layout_marginTop="506px"
+        android:gravity="center_vertical"
+        android:text="2001년 12월 13일"
+        android:textAppearance="@style/info_author" />
+
+    <TextView
+        android:id="@+id/book_info_author_mine"
+        android:layout_width="700px"
+        android:layout_height="66px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="183px"
+        android:layout_marginTop="374px"
+        android:gravity="center_vertical"
+        android:text="이유림"
+        android:textAppearance="@style/info_author" />
+
+    <TextView
+        android:id="@+id/info_author_mine"
+        android:layout_width="740px"
+        android:layout_height="66px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="183px"
+        android:layout_marginTop="440px"
+        android:gravity="center_vertical"
+        android:text="명지전문대"
+        android:textAppearance="@style/info_author" />
+
+    <TextView
+        android:id="@+id/explain_info"
+        android:layout_width="693px"
+        android:layout_height="215px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="29px"
+        android:layout_marginTop="655px"
+        android:gravity="center_vertical"
+        android:text="오른쪽 아래에 살짝 찍힘 자국 있습니두~"
+        android:textAppearance="@style/sell_text" />
+
+    <View
+        android:id="@+id/rectangle_5"
+        android:layout_width="1082px"
+        android:layout_height="65px"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="180px"
+        android:background="#F1F1F1" />
+
+
+    <View
+        android:id="@+id/sell_perf"
+        android:layout_width="367px"
+        android:layout_height="78px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="682px"
+        android:layout_marginTop="566px"
+        android:background="@drawable/sell_next_b_b"
+        android:textColor="#ffffff"
+        android:textSize="30px" />
+
+    <ImageView
+        android:id="@+id/mesage_i"
+        android:layout_width="39px"
+        android:layout_height="38px"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="696px"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="586px"
+        android:background="@drawable/message_get"
+        />
+
+    <TextView
+        android:id="@+id/text_sell_perf"
+        android:layout_width="300px"
+        android:layout_height="70px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="744px"
+        android:layout_marginTop="568px"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="판매자에게 쪽지 보내기"
+        android:textColor="#ffffff"
+        android:textSize="30px"
+        android:textStyle="bold" />
+
+    <android.widget.Button
+        android:id="@+id/get_btn"
+        android:layout_width="367px"
+        android:layout_height="78px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="682px"
+        android:layout_marginTop="566px"
+        android:background="#00ff0000" />
+
+    <TextView
+        android:id="@+id/dip_ex"
+        android:layout_width="200px"
+        android:layout_height="66px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="29px"
+        android:layout_marginTop="1039px"
+        android:gravity="center_vertical"
+        android:text="상세정보"
+        android:textAppearance="@style/web_text"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/state_now"
+        android:layout_width="154px"
+        android:layout_height="66px"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="29px"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="1122px"
+        android:text="책 상태"
+        android:textColor="#616161"
+        android:textStyle="bold"
+        android:textSize="25px"
+        android:gravity="center_vertical"
+        />
+    <TextView
+        android:id="@+id/sudan_now"
+        android:layout_width="154px"
+        android:layout_height="66px"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="29px"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="1188px"
+        android:text="거래 수단"
+        android:textColor="#616161"
+        android:textStyle="bold"
+        android:textSize="25px"
+        android:gravity="center_vertical"
+        />
+
+    <TextView
+        android:id="@+id/want_area"
+        android:layout_width="146px"
+        android:layout_height="66px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="27px"
+        android:layout_marginTop="1254px"
+        android:gravity="center_vertical"
+        android:text="원하는 장소"
+        android:textColor="#616161"
+        android:textSize="25px"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/state_d"
+        android:layout_width="46px"
+        android:layout_height="66px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="183px"
+        android:layout_marginTop="1122px"
+        android:gravity="center_vertical"
+        android:text="상"
+        android:textColor="#000000"
+        android:textSize="25px"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/sudan_area"
+        android:layout_width="69px"
+        android:layout_height="66px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="183px"
+        android:layout_marginTop="1188px"
+        android:gravity="center_vertical"
+        android:text="직거래"
+        android:textColor="#000000"
+        android:textSize="25px"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/sudan_pac"
+        android:layout_width="46px"
+        android:layout_height="66px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="278px"
+        android:layout_marginTop="1188px"
+        android:gravity="center_vertical"
+        android:text="택배"
+        android:textColor="#000000"
+        android:textSize="25px"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/want_area_c"
+        android:layout_width="194px"
+        android:layout_height="66px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="181px"
+        android:layout_marginTop="1254px"
+        android:gravity="center_vertical"
+        android:text="명지전문대"
+        android:textColor="#000000"
+        android:textSize="25px"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/image_viewer1"
+        android:layout_width="431px"
+        android:layout_height="430px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="29px"
+        android:layout_marginTop="1350px"
+        android:background="@drawable/camera_upload_box" />
+
+    <ImageView
+        android:id="@+id/image_viewer2"
+        android:layout_width="431px"
+        android:layout_height="430px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="509px"
+        android:layout_marginTop="1350px"
+        android:background="@drawable/camera_upload_box" />
+    <View
+        android:id="@+id/blockd"
+        android:layout_width="1082px"
+        android:layout_height="179px"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="1832px"
+        android:background="#F1F1F1"
+        />
+
+    <TextView
+        android:id="@+id/home_btn_text"
+        android:layout_width="360px"
+        android:layout_height="53px"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="2133px"
+        android:layout_marginLeft="160px"
+        android:text="홈"
+        android:textAppearance="@style/some_id"
+        />
+    <TextView
+        android:id="@+id/sell_btn_text"
+        android:layout_width="360px"
+        android:layout_height="53px"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="2133px"
+        android:layout_marginLeft="470px"
+        android:text="판매하기"
+        android:textAppearance="@style/some_id"
+        />
+    <TextView
+        android:id="@+id/mine_btn_text"
+        android:layout_width="360px"
+        android:layout_height="53px"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="2133px"
+        android:layout_marginLeft="830px"
+        android:text="나의 책"
+        android:textAppearance="@style/some_id"
+        />
+
+    <android.widget.Button
+        android:id="@+id/home_btn_used"
+        android:layout_width="360px"
+        android:layout_height="300px"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="730dp"
+        android:background="#00ff0000" />
+
+    <android.widget.Button
+        android:id="@+id/sell_btn_used"
+        android:layout_width="360px"
+        android:layout_height="300px"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="360px"
+        android:layout_marginTop="730dp"
+        android:background="#00ff0000" />
+
+    <android.widget.Button
+        android:id="@+id/mine_btn_used"
+        android:layout_width="360px"
+        android:layout_height="300px"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="730dp"
+        android:layout_marginLeft="720px"
+        android:background="#00ff0000"/>
+
+    <ImageView
+        android:id="@+id/used_home_image"
+        android:layout_width="64px"
+        android:layout_height="64px"
+        android:layout_marginLeft="149px"
+        android:layout_marginTop="2069px"
+        android:background="@drawable/home" />
+    <ImageView
+        android:id="@+id/used_sell_image"
+        android:layout_width="64px"
+        android:layout_height="64px"
+        android:layout_marginLeft="520px"
+        android:layout_marginTop="2069px"
+        android:background="@drawable/sell"
+        />
+    <ImageView
+        android:id="@+id/used_mine_image"
+        android:layout_width="64px"
+        android:layout_height="64px"
+        android:layout_marginLeft="870px"
+        android:layout_marginTop="2069px"
+        android:background="@drawable/used_me" />
+</RelativeLayout>

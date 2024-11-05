@@ -1,0 +1,62 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/some_id"
+    android:layout_width="910px"
+    android:layout_height="510px"
+    android:clipToOutline="true"
+    android:background="@drawable/member"
+    >
+
+    <RelativeLayout
+        android:id="@+id/login_fail"
+        android:layout_width="910px"
+        android:layout_height="680px"
+        android:background="@drawable/membership"
+        android:clipToOutline="true">
+
+
+        <TextView
+            android:id="@+id/text_find_hak"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="133dp"
+            android:layout_marginTop="11dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="학번 찾기"
+            android:textAppearance="@style/some_id" />
+
+        <View
+            android:id="@+id/line_1"
+            android:layout_width="850px"
+            android:layout_height="1dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="36dp"
+            android:background="@drawable/line_1" />
+
+        <TextView
+            android:id="@+id/find_id_good"
+            android:layout_width="600px"
+            android:layout_height="71.11px"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="215px"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="@string/notsame_pass"
+            android:textAppearance="@style/some_id" />
+
+        <android.widget.Button
+            android:id="@+id/submit_btn_ng"
+            android:layout_width="910px"
+            android:layout_height="105.87px"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="410px"
+            android:background="#FF002057"
+            android:text="확인"
+            android:textColor="#ffffff" />
+    </RelativeLayout>
+</RelativeLayout>

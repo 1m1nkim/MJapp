@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/cons_layout"
+    tools:context=".Chatbot">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/swipe"
+        app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/chat_list"
+            android:background="@color/light_gray"
+            android:orientation="vertical">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                xmlns:android="http://schemas.android.com/apk/res/android">
+
+                <ImageView
+                    android:layout_width="100px"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/list_bar"
+                    android:scaleType="centerCrop"
+                    android:layout_centerHorizontal="true"/>
+
+                <Button
+                    android:id="@+id/handle"
+                    android:layout_width="match_parent"
+                    android:layout_height="100px"
+                    android:background="@android:color/transparent"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:layout_gravity="bottom"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginEnd="0dp"
+                    android:text=""
+                    android:textColor="#00000000" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/chat_text_1"
+                android:layout_width="match_parent"
+                android:layout_height="100px"
+                android:layout_marginStart="10px"
+                android:layout_marginEnd="10px"
+                android:text="등록금 납부는 어디서 확인 할 수 있나요?"
+                android:textColor="@color/black"
+                android:textSize="40px"
+                android:clickable="true"
+                android:onClick="onTextViewClick"
+                tools:ignore="OnClick" />
+
+            <TextView
+                android:id="@+id/chat_text_2"
+                android:layout_width="match_parent"
+                android:layout_height="100px"
+                android:layout_marginStart="10px"
+                android:layout_marginEnd="10px"
+                android:textColor="@color/black"
+                android:text="성적 확인은 어디서 확인 할 수 있나요?"
+                android:textSize="40px"
+                android:clickable="true"
+                android:onClick="onTextViewClick"
+                tools:ignore="OnClick" />
+
+            <TextView
+                android:id="@+id/chat_text_3"
+                android:layout_width="match_parent"
+                android:layout_height="100px"
+                android:layout_marginStart="10px"
+                android:layout_marginEnd="10px"
+                android:textColor="@color/black"
+                android:text="휴학 및 자퇴 신청은 어디서 하나요?"
+                android:textSize="40px"
+                android:clickable="true"
+                android:onClick="onTextViewClick"
+                tools:ignore="OnClick" />
+
+            <TextView
+                android:id="@+id/chat_text_4"
+                android:layout_width="match_parent"
+                android:layout_height="100px"
+                android:layout_marginStart="10px"
+                android:layout_marginEnd="10px"
+                android:textColor="@color/black"
+                android:text="휴학기간은 언제까지 가능한가요?"
+                android:textSize="40px"
+                android:clickable="true"
+                android:onClick="onTextViewClick"
+                tools:ignore="OnClick" />
+
+            <TextView
+                android:id="@+id/chat_text_5"
+                android:layout_width="match_parent"
+                android:layout_height="100px"
+                android:layout_marginStart="10px"
+                android:layout_marginEnd="10px"
+                android:textColor="@color/black"
+                android:text="도서관 이용시간은 어떻게 되나요?"
+                android:textSize="40px"
+                android:clickable="true"
+                android:onClick="onTextViewClick"
+                tools:ignore="OnClick" />
+
+            <TextView
+                android:id="@+id/chat_text_6"
+                android:layout_width="match_parent"
+                android:layout_height="100px"
+                android:layout_marginStart="10px"
+                android:layout_marginEnd="10px"
+                android:textColor="@color/black"
+                android:text="출석인정 이의신청은 어디서 하나요?"
+                android:textSize="40px"
+                android:clickable="true"
+                android:onClick="onTextViewClick"
+                tools:ignore="OnClick" />
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/some_id"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clipToOutline="true"
+    android:background="@drawable/main_login_test"
+    >
+
+    <View
+        android:id="@+id/logo"
+        android:layout_width="1108px"
+        android:layout_height="1142px"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24px"
+        android:background="@drawable/img_login" />
+
+    <TextView
+        android:id="@+id/haktext"
+        android:layout_width="118.96px"
+        android:layout_height="73.06px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="143px"
+        android:layout_marginTop="926px"
+        android:gravity="center_vertical"
+        android:text="@string/text_hak"
+        android:textAppearance="@style/some_id" />
+
+    <EditText
+        android:id="@+id/Login_num"
+        android:layout_width="794px"
+        android:layout_height="120px"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="1013px"
+        android:layout_marginRight="54dp"
+        android:background="@drawable/edit_id"
+        android:hint="학번을 입력해주세요."
+        android:paddingLeft="27px"
+        android:textColor="@color/black"
+        android:textSize="36px" />
+
+    <TextView
+        android:id="@+id/passtext"
+        android:layout_width="198.83px"
+        android:layout_height="73.06px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="143px"
+        android:layout_marginTop="1180px"
+        android:gravity="center_vertical"
+        android:text="@string/text_pass"
+        android:textAppearance="@style/some_id" />
+
+    <EditText
+        android:id="@+id/pas_num"
+        android:layout_width="794px"
+        android:layout_height="120px"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="1267px"
+        android:layout_marginRight="54dp"
+        android:background="@drawable/edit_id"
+        android:hint="비밀번호를 입력해주세요."
+        android:inputType="textPassword"
+        android:paddingLeft="27px"
+        android:textColor="@color/black"
+        android:textSize="36px" />
+
+    <CheckBox
+        android:id="@+id/check_login"
+        android:layout_width="42px"
+        android:layout_height="42px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="143px"
+        android:layout_marginTop="1475px"
+        android:background="@drawable/checkbox"
+        android:button="@null" />
+
+    <TextView
+        android:id="@+id/text_autologin"
+        android:layout_width="185px"
+        android:layout_height="47px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="192.25px"
+        android:layout_marginTop="1470px"
+        android:gravity="center_vertical"
+        android:text="@string/auto_text_main"
+        android:textAppearance="@style/main_auto" />
+
+    <android.widget.Button
+        android:id="@+id/login_btn"
+        android:layout_width="794px"
+        android:layout_height="120px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="143px"
+        android:layout_marginTop="1536px"
+        android:background="@drawable/login_btn_design"
+        android:text="@string/login_btn_text"
+        android:textColor="#000000" />
+
+
+    <android.widget.Button
+        android:id="@+id/text_find_hak"
+        android:layout_width="50dp"
+        android:layout_height="16dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="358px"
+        android:layout_marginTop="1679px"
+        android:background="#00ff0000"
+        android:gravity="center|center_vertical"
+        android:text="@string/find_text"
+        android:textAppearance="@style/find_text" />
+
+    <android.widget.Button
+        android:id="@+id/text_find_pas"
+        android:layout_width="75dp"
+        android:layout_height="16dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="595px"
+        android:layout_marginTop="1679px"
+        android:background="#00ff0000"
+        android:gravity="center|center_vertical"
+        android:text="@string/find_pass"
+        android:textAppearance="@style/find_text" />
+
+    <View
+        android:id="@+id/line1"
+        android:layout_width="1px"
+        android:layout_height="45px"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="540px"
+        android:layout_marginTop="1681px"
+        android:background="@drawable/line1_1" />
+
+    <TextView
+        android:id="@+id/made_by_"
+        android:layout_width="824px"
+        android:layout_height="81px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="128px"
+        android:layout_marginTop="2094px"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="@string/made_by_"
+        android:textAppearance="@style/made_by_"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/login_fail_text"
+        android:layout_width="626px"
+        android:layout_height="51px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="143px"
+        android:layout_marginTop="1387px"
+        android:gravity="center_vertical"
+        android:text="@string/loginT_fail"
+        android:textAppearance="@style/login_fail_s" />
+
+    <android.widget.Button
+        android:id="@+id/auto_login_fill"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_marginLeft="143px"
+        android:layout_marginTop="1465px"
+        android:background="#00ff0000" />
+
+</RelativeLayout>

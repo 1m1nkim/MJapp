@@ -1,0 +1,129 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/some_id"
+    android:layout_width="910px"
+    android:layout_height="680px"
+    android:clipToOutline="true"
+    android:background="@drawable/member"
+    >
+
+    <RelativeLayout
+        android:id="@+id/login_fail"
+        android:layout_width="910px"
+        android:layout_height="680px"
+        android:background="@drawable/membership"
+        android:clipToOutline="true">
+
+
+        <TextView
+            android:id="@+id/text_find_hak"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="133dp"
+            android:layout_marginTop="11dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="학번 찾기"
+            android:textAppearance="@style/some_id" />
+
+        <View
+            android:id="@+id/line_1"
+            android:layout_width="800px"
+            android:layout_height="1dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="36dp"
+            android:background="@drawable/line_1" />
+
+        <TextView
+            android:id="@+id/find_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="80px"
+            android:layout_marginTop="140px"
+            android:gravity="center_vertical"
+            android:text="이름"
+            android:textAppearance="@style/some_id" />
+
+        <EditText
+            android:id="@+id/edit_id"
+            android:layout_width="689.34px"
+            android:layout_height="85.84px"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="29dp"
+            android:layout_marginTop="79dp"
+            android:background="@drawable/edit_id"
+            android:elevation="10dp"
+            android:hint="이름을 입력하세요"
+            android:paddingLeft="27px"
+            android:textSize="36px" />
+
+        <TextView
+            android:id="@+id/find_birth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="80px"
+            android:layout_marginTop="325px"
+            android:gravity="center_vertical"
+            android:text="생년월일"
+            android:textAppearance="@style/some_id" />
+
+        <EditText
+            android:id="@+id/edit_birth"
+            android:layout_width="689.34px"
+            android:layout_height="85.84px"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="80px"
+            android:layout_marginTop="390px"
+            android:background="@drawable/edit_id"
+            android:elevation="10dp"
+            android:hint="생년월일을 입력하세요"
+            android:paddingLeft="27px"
+            android:textSize="36px" />
+
+        <android.widget.Button
+            android:id="@+id/submit_btn"
+            android:layout_width="455px"
+            android:layout_height="105.87px"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="455px"
+            android:layout_marginTop="580px"
+            android:background="#FF002057"
+            android:text="확인"
+            android:textColor="#ffffff" />
+
+        <android.widget.Button
+            android:id="@+id/cancel_btn"
+            android:layout_width="455px"
+            android:layout_height="105.87px"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="0px"
+            android:layout_marginTop="580px"
+            android:background="#ffffff"
+            android:text="취소"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/donFind_num"
+            android:layout_width="563px"
+            android:layout_height="36px"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="80px"
+            android:layout_marginTop="500px"
+            android:gravity="center_vertical"
+            android:text="이름과 생년월일을 작성하면 확인 버튼이 활성화 됩니다."
+            android:textAppearance="@style/donFind_num_st" />
+
+    </RelativeLayout>
+</RelativeLayout>

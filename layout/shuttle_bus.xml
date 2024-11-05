@@ -1,0 +1,50 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/shuttle_id"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clipToOutline="true">
+
+    <android.widget.Button
+        android:id="@+id/back_btn_han"
+        android:layout_width="80px"
+        android:layout_height="80px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="37px"
+        android:layout_marginTop="59px"
+        android:background="@drawable/back_logo" />
+
+    <TextView
+        android:id="@+id/shuttle_title"
+        android:layout_width="204px"
+        android:layout_height="66px"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="66px"
+        android:text="셔틀버스"
+        android:textAppearance="@style/sche_title_s"
+        android:gravity="center_vertical"
+        />
+
+    <View
+        android:id="@+id/dot_line3"
+        android:layout_width="1080px"
+        android:layout_height="1px"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="191px"
+        android:background="@drawable/dot_line"
+        android:elevation="4px" />
+
+
+    <View
+        android:id="@+id/shuttle"
+        android:layout_width="1028px"
+        android:layout_height="1929px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="27px"
+        android:layout_marginTop="201px"
+        android:background="@drawable/shuttle" />
+</RelativeLayout>

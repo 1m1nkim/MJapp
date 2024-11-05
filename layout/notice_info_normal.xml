@@ -1,0 +1,176 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/some_id"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToOutline="true"
+    android:background="@drawable/main_login_test"
+    >
+
+    <TextView
+        android:id="@+id/title_notice_text"
+        android:layout_width="204px"
+        android:layout_height="66px"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="66px"
+        android:gravity="center_vertical"
+        android:text="공지사항"
+        android:textAppearance="@style/sche_title_s" />
+
+    <View
+        android:id="@+id/dot_line6"
+        android:layout_width="1080px"
+        android:layout_height="1px"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="191px"
+        android:background="@drawable/dot_line"
+        android:elevation="4px" />
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/announcement_view"
+        android:layout_width="963px"
+        android:layout_height="1794px"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="59px"
+        android:layout_marginTop="258px"
+        android:background="@drawable/notice_info_main">
+
+        <View
+            android:layout_width="960px"
+            android:layout_height="10px"
+            android:layout_marginTop="1px"
+            android:background="@drawable/notice_info_tbline"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:layout_width="960px"
+            android:layout_height="10px"
+            android:layout_marginTop="1784px"
+            android:background="@drawable/notice_info_tbline"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="930px"
+            android:layout_height="120px"
+            android:layout_marginStart="37px"
+            android:layout_marginTop="2px"
+            android:gravity="center_vertical"
+            android:text="미래융합학부 사무공간 리모델링으로 인한 사무실 이전 안내"
+            android:textAppearance="@style/notice_info_title"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:layout_width="897px"
+            android:layout_height="5px"
+            android:layout_marginStart="37px"
+            android:layout_marginTop="121px"
+            android:background="@drawable/main_line"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="90px"
+            android:layout_height="72px"
+            android:layout_marginStart="37px"
+            android:layout_marginTop="133px"
+            android:gravity="center_vertical"
+            android:text="작성자"
+            android:textAppearance="@style/notice_info_title"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:layout_width="1px"
+            android:layout_height="42px"
+            android:layout_marginStart="144px"
+            android:layout_marginTop="148px"
+            android:background="@drawable/line_lay_sche"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="149px"
+            android:layout_height="72px"
+            android:layout_marginStart="161px"
+            android:layout_marginTop="133px"
+            android:gravity="center_vertical"
+            android:text="미래융합부"
+            android:textAppearance="@style/notice_info_title"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="56px"
+            android:layout_height="72px"
+            android:layout_marginStart="672px"
+            android:layout_marginTop="133px"
+            android:gravity="center_vertical"
+            android:text="날짜"
+            android:textAppearance="@style/notice_info_title"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:layout_width="1px"
+            android:layout_height="42px"
+            android:layout_marginStart="745px"
+            android:layout_marginTop="148px"
+            android:background="@drawable/line_lay_sche"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="172px"
+            android:layout_height="72px"
+            android:layout_marginStart="762px"
+            android:layout_marginTop="133px"
+            android:gravity="center_vertical"
+            android:text="2023-03-23"
+            android:textAppearance="@style/notice_info_title"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:layout_width="906px"
+            android:layout_height="5px"
+            android:layout_marginStart="37px"
+            android:layout_marginTop="215px"
+            android:background="@drawable/main_line"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="910px"
+            android:layout_height="1470px"
+            android:layout_marginStart="35px"
+            android:layout_marginTop="242px"
+            android:text="사회교육관 203호 공사에 따른 미래융합학부의 임시 사무공간을 안내해 드립니다.\n\n장소: 사회교육관(407호)\n기간: 2023.3.24.(금)~3.27.(월)\n\n공사 기간 내에는 업무 및 전화 연락에 어려움이 있으니, 이점 참고하시길 바랍니다."
+            android:textAppearance="@style/notice_info_title"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/notice_info_btn"
+        android:layout_width="160px"
+        android:layout_height="83.48px"
+        android:layout_marginLeft="460px"
+        android:layout_marginTop="2105px"
+        android:background="@drawable/notice_btn"
+        android:text="목록"
+        android:textColor="@color/white"
+        android:textSize="27px"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
